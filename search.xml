@@ -19,6 +19,18 @@
 ]]></content>
   </entry>
   <entry>
+    <title>welcome to my station</title>
+    <url>/2024/11/18/welcome-to-my-station/</url>
+    <content><![CDATA[<h2 id="这是第一篇我亲自写的小blog！"><a href="#这是第一篇我亲自写的小blog！" class="headerlink" title="这是第一篇我亲自写的小blog！"></a>这是第一篇我亲自写的小blog！</h2><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1996714082&auto=1&height=66"></iframe>
+
+<h2 id="我觉得这首歌真的超级好听！！！好听"><a href="#我觉得这首歌真的超级好听！！！好听" class="headerlink" title="我觉得这首歌真的超级好听！！！好听"></a>我觉得这首歌真的超级好听！！！好听</h2><p>先插一张好看的图片 嘿！</p>
+<img src="https://w.wallhaven.cc/full/jx/wallhaven-jxg2k5.jpg" style="zoom: 100%">
+
+<p>老实说第一篇也不知道说些什么（挠挠头.jpg）</p>
+<p>所以我决定…等我想出来</p>
+]]></content>
+  </entry>
+  <entry>
     <title>one</title>
     <url>/2024/12/05/one/</url>
     <content><![CDATA[<h1 id="一份题解——-不确定，再看看"><a href="#一份题解——-不确定，再看看" class="headerlink" title="一份题解—— 不确定，再看看"></a>一份题解—— <strong>不确定，再看看</strong></h1><h3 id="来自功防世界的一道"><a href="#来自功防世界的一道" class="headerlink" title="来自功防世界的一道"></a>来自功防世界的一道</h3><p><img src="1.png" alt="ctf"></p>
@@ -44,33 +56,25 @@
 ]]></content>
   </entry>
   <entry>
-    <title>welcome to my station</title>
-    <url>/2024/11/18/welcome-to-my-station/</url>
-    <content><![CDATA[<h2 id="这是第一篇我亲自写的小blog！"><a href="#这是第一篇我亲自写的小blog！" class="headerlink" title="这是第一篇我亲自写的小blog！"></a>这是第一篇我亲自写的小blog！</h2><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1996714082&auto=1&height=66"></iframe>
-
-<h2 id="我觉得这首歌真的超级好听！！！好听"><a href="#我觉得这首歌真的超级好听！！！好听" class="headerlink" title="我觉得这首歌真的超级好听！！！好听"></a>我觉得这首歌真的超级好听！！！好听</h2><p>先插一张好看的图片 嘿！</p>
-<img src="https://w.wallhaven.cc/full/jx/wallhaven-jxg2k5.jpg" style="zoom: 100%">
-
-<p>老实说第一篇也不知道说些什么（挠挠头.jpg）</p>
-<p>所以我决定…等我想出来</p>
-]]></content>
-  </entry>
-  <entry>
     <title>我解的题</title>
     <url>/2024/12/05/%E6%88%91%E8%A7%A3%E7%9A%84%E9%A2%98/</url>
     <content><![CDATA[<h1 id="我写过的题"><a href="#我写过的题" class="headerlink" title="我写过的题"></a>我写过的题</h1><h4 id="来自攻防世界"><a href="#来自攻防世界" class="headerlink" title="来自攻防世界"></a>来自攻防世界</h4><h2 id="1-不确定，再看看"><a href="#1-不确定，再看看" class="headerlink" title="1.不确定，再看看"></a>1.不确定，再看看</h2><blockquote>
-<p>难度：3  方向：Misc<br>题目来源: XSCTF联合招新赛<br>题目描述:做题做累了吧，给你准备了一道钢琴曲，要仔细听哦！我藏得很深。<br>hint1：信息隐藏一般要求载体需要有一定的冗余度，而base64编码刚好就有这个特点。<br><strong>这题题解请详看上一篇</strong></p>
+<p>难度：3  方向：Misc<br>题目来源: XSCTF联合招新赛<br>题目描述:做题做累了吧，给你准备了一道钢琴曲，要仔细听哦！我藏得很深。<br>hint1：信息隐藏一般要求载体需要有一定的冗余度，而base64编码刚好就有这个特点。</p>
 </blockquote>
+<p> <strong>这题题解请详看上一篇</strong></p>
 <h2 id="2-如来十三掌"><a href="#2-如来十三掌" class="headerlink" title="2.如来十三掌"></a>2.如来十三掌</h2><blockquote>
-<p>难度：3  方向：Misc<br>题目来源:<br>题目描述:菜狗为了打败菜猫，学了一套如来十三掌。<br>题解：<br>打开附件，是一个docx文档，里面的内容如下<br><img src="i.png" alt="如来十三掌"><br>据此当时我去搜索了一下，里面的内容是什么，于是我知道了<strong>与佛论禅密码</strong><br>OK，回到题目中，我们把它解密后得到：<br><code>MzkuM3gvMUAwnzuvn3cgozMlMTuvqzAenJchMUAeqzWenzEmLJW9</code><br>发现与我们预期的flag不符，但根据题目”如来<strong>十三</strong>“,猜测rot-13编码的，于是我们尝试解码：<br><code>ZmxhZ3tiZHNjamhia3ptbmZyZGhidmNraWpuZHNrdmJramRzYWJ9</code><br>好的，又出现了一串不符合预期的字符，所以我去问了AI（它是个好东西，我们要灵活使用它！）,知道了是base64编码，于是我们尝试解码：<br><code>flag&#123;bdscjhbkzmnfrdhbvckijndskvbkjdsab&#125;</code><br>这就是我们预期的flag！！！</p>
+<p>难度：3  方向：Misc<br>题目来源:<br>题目描述:菜狗为了打败菜猫，学了一套如来十三掌。</p>
 </blockquote>
+<p>题解：<br>打开附件，是一个docx文档，里面的内容如下<br><img src="i.png" alt="如来十三掌"><br>据此当时我去搜索了一下，里面的内容是什么，于是我知道了<strong>与佛论禅密码</strong><br>OK，回到题目中，我们把它解密后得到：<br><code>MzkuM3gvMUAwnzuvn3cgozMlMTuvqzAenJchMUAeqzWenzEmLJW9</code><br>发现与我们预期的flag不符，但根据题目”如来<strong>十三</strong>“,猜测rot-13编码的，于是我们尝试解码：<br><code>ZmxhZ3tiZHNjamhia3ptbmZyZGhidmNraWpuZHNrdmJramRzYWJ9</code><br>好的，又出现了一串不符合预期的字符，所以我去问了AI（它是个好东西，我们要灵活使用它！）,知道了是base64编码，于是我们尝试解码：<br><code>flag&#123;bdscjhbkzmnfrdhbvckijndskvbkjdsab&#125;</code><br>这就是我们预期的flag！！！</p>
 <h2 id="3-gif"><a href="#3-gif" class="headerlink" title="3.gif"></a>3.gif</h2><blockquote>
-<p>难度：4  方向：Misc<br>题目来源:<br>题目描述:菜狗截获了一张菜鸡发给菜猫的动态图，却发现另有玄机<br> 题解：<br>打开文件出现多个黑白，让人联想到二进制，白色图片代表0，黑色图片代表1。<br>01100110前八位二进制换算后为 f 证明思路正确。<br><strong>01100110011011000110000101100111011110110100011001110101010011100101111101100111011010010100011001111101</strong><br>二进制转字符串得到 flag</p>
+<p>难度：4  方向：Misc<br>题目来源:<br>题目描述:菜狗截获了一张菜鸡发给菜猫的动态图，却发现另有玄机</p>
 </blockquote>
+<p>题解：<br>打开文件出现多个黑白，让人联想到二进制，白色图片代表0，黑色图片代表1。<br>01100110前八位二进制换算后为 f 证明思路正确。<br><strong>01100110011011000110000101100111011110110100011001110101010011100101111101100111011010010100011001111101</strong><br>二进制转字符串得到 flag</p>
 <h2 id="4-pdf"><a href="#4-pdf" class="headerlink" title="4.pdf"></a>4.pdf</h2><blockquote>
-<p>难度：3  方向：Misc<br>题目来源:csaw<br>题目描述:菜猫给了菜狗一张图，说图下面什么都没有<br>题解：<br>打开pdf文件，发现是一张图片，然后我把它转化为word文档<br>然后把图片移开，看到图片覆盖的下面有flag<br><img src="2.png" alt="flag"></p>
+<p>难度：3  方向：Misc<br>题目来源:csaw<br>题目描述:菜猫给了菜狗一张图，说图下面什么都没有</p>
 </blockquote>
-<p>后面的没时间写了<br><img src="3.png" alt="wu"><br><img src="4.png" alt="wu"><br><img src="5.png" alt="wu"></p>
+<p>题解：<br>打开pdf文件，发现是一张图片，然后我把它转化为word文档<br>然后把图片移开，看到图片覆盖的下面有flag<br><img src="2.png" alt="flag"></p>
+<p>后面的没时间写完整，就先这样吧，下次有时间再补充<br>以下是我所做过的题（在攻防世界）<br><img src="3.png" alt="wu"><br><img src="4.png" alt="wu"><br><img src="5.png" alt="wu"></p>
 ]]></content>
   </entry>
 </search>
